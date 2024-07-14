@@ -1,4 +1,7 @@
-# chance20240712
+gb.ru/lessons/451458 семинары
+gb.ru/lessons/407765 лекции
+
+# chance20240712 Lecture1
 После создания python -m venv venv
 # - для Windows;
 # python3 -m venv venv - для Linux и MacOS
@@ -38,3 +41,16 @@ pip freeze > requirements.txt (сохраняет все данные, что м
 more requirements.txt - заглянуть в содержимое файла requirements
 
 pip install -r requirements.txt - быстрая установка в новое окружение всего содержимого файла
+
+# Lecture2
+Линтер - программа, которая проверяет код
+
+Из модуля typing можно импортировать различные типы данных
+
+sys.getsizeof()
+object.__sizeof__()
+
+dir(math.gcd)   # greatest common divisor - наибольший общий делитель
+math        # nan - not a number    tau     inf - infinity
+decimal     # высокая точность Decimal
+fractions   # дроби Fraction
